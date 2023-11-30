@@ -162,8 +162,8 @@
   "portfolioData": {
     "portfolioItems": [
       {
-        "imgLink": "./src/assets/play-two-sq.jpeg",
-        "imgLinkLg": "./src/assets/play-two-sq.jpeg",
+        "imgLink": "/images/play-two-sq.jpeg",
+        "imgLinkLg": "/images/play-two-sq.jpeg",
         "title": "Puppy Play",
         "subTitle": "Puppy Play",
         "effect": "fade-up",
@@ -172,8 +172,8 @@
       },
 
       {
-        "imgLink": "./src/assets/pup-bg-two-sq.jpeg",
-        "imgLinkLg": "./src/assets/pup-bg-two-sq.jpeg",
+        "imgLink": "/images/pup-bg-two-sq.jpeg",
+        "imgLinkLg": "/images/pup-bg-two-sq.jpeg",
         "title": "Puppy travels",
         "subTitle": "Beach trip",
         "effect": "fade-up",
@@ -181,8 +181,8 @@
         "delay": "300"
       },
       {
-        "imgLink": "./src/assets/pup-bg.jpeg",
-        "imgLinkLg": "./src/assets/pup-bg.jpeg",
+        "imgLink": "/images/pup-bg.jpeg",
+        "imgLinkLg": "/images/pup-bg.jpeg",
         "title": "Lake vacation",
         "subTitle": "Happy pup",
         "effect": "fade-up",
@@ -190,8 +190,8 @@
         "delay": "400"
       },
       {
-        "imgLink": "./src/assets/pup-work-sq.jpeg",
-        "imgLinkLg": "./src/assets/pup-work-sq.jpeg",
+        "imgLink": "/images/pup-work-sq.jpeg",
+        "imgLinkLg": "/images/pup-work-sq.jpeg",
         "title": "Puppy training",
         "subTitle": "On duty",
         "effect": "fade-up",
@@ -199,8 +199,8 @@
         "delay": "500"
       },
       {
-        "imgLink": "./src/assets/puppa-sq.jpeg",
-        "imgLinkLg": "./src/assets/puppa-sq.jpeg",
+        "imgLink": "/images/puppa-sq.jpeg",
+        "imgLinkLg": "/images/puppa-sq.jpeg",
         "title": "New Litter",
         "subTitle": "Baby pups",
         "effect": "fade-up",
@@ -208,8 +208,8 @@
         "delay": "600"
       },
       {
-        "imgLink": "./src/assets/puppy.jpeg",
-        "imgLinkLg": "./src/assets/puppy.jpeg",
+        "imgLink": "/images/puppy.jpeg",
+        "imgLinkLg": "/images/puppy.jpeg",
         "title": "Lea the puppy",
         "subTitle": "Hello humans",
         "effect": "fade-up",
@@ -217,8 +217,8 @@
         "delay": "700"
       },
       {
-        "imgLink": "./src/assets/than-training-sq.jpeg",
-        "imgLinkLg": "./src/assets/than-training-sq.jpeg",
+        "imgLink": "/images/than-training-sq.jpeg",
+        "imgLinkLg": "/images/than-training-sq.jpeg",
         "title": "Obedience training",
         "subTitle": "Thanasis and Erin",
         "effect": "fade-up",
@@ -226,8 +226,8 @@
         "delay": "200"
       },
       {
-        "imgLink": "./src/assets/thanasis-main-sq.jpeg",
-        "imgLinkLg": "./src/assets/thanasis-main-sq.jpeg",
+        "imgLink": "/images/thanasis-main-sq.jpeg",
+        "imgLinkLg": "/images/thanasis-main-sq.jpeg",
         "title": "Thanasis",
         "subTitle": "Holiday shot",
         "effect": "fade-up",
@@ -235,8 +235,8 @@
         "delay": "300"
       },
       {
-        "imgLink": "./src/assets/training-erin-sq.jpeg",
-        "imgLinkLg": "./src/assets/training-erin-sq.jpeg",
+        "imgLink": "/images/training-erin-sq.jpeg",
+        "imgLinkLg": "/images/training-erin-sq.jpeg",
         "title": "Tsellios Academy",
         "subTitle": "Thanasis and Erin",
         "effect": "fade-up",
@@ -342,19 +342,19 @@
     },
     "informations": [
       {
-        "imgLink": "./src/assets/natalia-image.jpg",
+        "imgLink": "/images/natalia-image.jpg",
         "title": "Natalia Lavrova",
         "designation": "Client",
         "text": "I would confidently recommend Thanasis Tsellios as a very reputable breeder. The service was very personal and professional. Right from the start full checks carried out to see if I was suitable as an owner of a high drive working dog. Weekly pictures and videos were sent of the puppy as she grew. And full background information was provided up front of both parents."
       },
       {
-        "imgLink": "./src/assets/chris-image.jpg",
+        "imgLink": "/images/chris-image.jpg",
         "title": "Chris Westgate",
         "designation": "Client",
         "text": "Thanasis is the best trainer I've worked with. He's deeply devoted to dogs, specialising in high drive breeds, and has spent years finessing modern dog training techniques. He's helped me develop more speed and power in my shepherds obedience by teaching me how to motivate the dog through better play. I wouldn't hesitate to recommend him to others."
       },
       {
-        "imgLink": "./src/assets/andrew-image.jpg",
+        "imgLink": "/images/andrew-image.jpg",
         "title": "Andrew Porter",
         "designation": "Client",
         "text": "Thanasis did an incredible job with our German Shepherd Rafferty who was very reactive to cars and other dogs where it was almost impossible to take him out for walks. Thanasis immediately developed a rapport with Rafferty and was quickly respected by Rafferty. After only about 8 sessions Rafferty now has no issues with cars, we can finally take him for walks without stress."
