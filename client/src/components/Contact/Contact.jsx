@@ -101,7 +101,7 @@ const Contact = ({ data, socialData }) => {
             <div className="st-contact-text">{text}</div>
             <div className="st-contact-info-wrap">
               <div className="st-single-contact-info">
-                <div className="st-icon-wrap">
+                <div className="st-icon-wrap2">
                   <Icon icon="fa-regular:envelope" />
                 </div>
                 <div className="st-single-info-details">
