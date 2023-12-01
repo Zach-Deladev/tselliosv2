@@ -5,7 +5,8 @@ import SectionHeading from "../SectionHeading/SectionHeading";
 import { Icon } from "@iconify/react";
 import SocialLinks from "../SocialLinks/SocialLinks";
 import emailjs from "emailjs-com";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Contact = ({ data, socialData }) => {
   const { title, text, subTitle } = data;
 
@@ -17,17 +18,18 @@ const Contact = ({ data, socialData }) => {
       .then(
         (result) => {
           console.log("Email successfully sent", result.text);
-          // Handle here for successful email submission
+          toast.success("Email successfully sent!");
         },
         (error) => {
           console.log("Failed to send email", error.text);
-          // Handle here for email sending failure
+          toast.error("Failed to send email. Please try again.");
         }
       );
   };
 
   return (
     <section id="contact" className="st-dark-bg">
+      <ToastContainer />
       <div className="st-height-b100 st-height-lg-b80"></div>
       <SectionHeading title="Contact" />
       <div
