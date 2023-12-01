@@ -4,9 +4,28 @@ import "./Contact.scss";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import { Icon } from "@iconify/react";
 import SocialLinks from "../SocialLinks/SocialLinks";
+import emailjs from "emailjs-com";
 
 const Contact = ({ data, socialData }) => {
   const { title, text, subTitle } = data;
+
+  const sendEmail = (e) => {
+    e.preventDefault(); // Prevents default form submission
+
+    emailjs
+      .sendForm("gmail", "template_vxz34p9", e.target, "jUdWXKH0qjP5YhtOn")
+      .then(
+        (result) => {
+          console.log("Email successfully sent", result.text);
+          // Handle here for successful email submission
+        },
+        (error) => {
+          console.log("Failed to send email", error.text);
+          // Handle here for email sending failure
+        }
+      );
+  };
+
   return (
     <section id="contact" className="st-dark-bg">
       <div className="st-height-b100 st-height-lg-b80"></div>
@@ -22,10 +41,9 @@ const Contact = ({ data, socialData }) => {
             <h3 className="st-contact-title">Just say Hello</h3>
             <div id="st-alert"></div>
             <form
-              action="#"
-              method="POST"
               className="st-contact-form"
               id="contact-form"
+              onSubmit={sendEmail}
             >
               <div className="st-form-field">
                 <input
@@ -59,7 +77,7 @@ const Contact = ({ data, socialData }) => {
                   cols="30"
                   rows="10"
                   id="msg"
-                  name="msg"
+                  name="message"
                   placeholder="Your Message"
                   required
                 ></textarea>
