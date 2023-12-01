@@ -110,9 +110,12 @@ const Contact = ({ data, socialData }) => {
                 </div>
               </div>
               <div className="st-single-contact-info">
-                <div className="st-icon-wrap">
+                <a
+                  href="whatsapp://send?phone=306977221245"
+                  className="st-icon-wrap"
+                >
                   <Icon icon="fa-solid:phone-alt" />
-                </div>
+                </a>
                 <div className="st-single-info-details">
                   <h4>Phone</h4>
                   <span>Whastapp: 00306977221245</span>
